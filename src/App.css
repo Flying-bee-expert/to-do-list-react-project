@@ -36,6 +36,16 @@
 
 .todo-item p {
   color: #888;
+}
+
+.todo-item-completed {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.todo-item-completed p {
+  color: #888;
   text-decoration: line-through;
 }
 
